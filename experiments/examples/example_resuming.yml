@@ -1,0 +1,16 @@
+DATASET: "rice"
+TASK: "all"
+RUNS: 3  # multiple runs
+RESUME: 4  # resume experiment 4
+STAGE: 1  # resume from stage 2 (perform task with existing node embedding)
+
+INFLUENCE_MAXIMIZATION:
+  K: 10
+SEED: 45
+GRAPH_WEIGHTING:
+  WALKS_PER_NODE: 80
+  P: 0.7
+  WALK_LENGTH: 40
+EMBEDDINGS:
+  NUM_EPOCHS: 20
+  EMBEDDING_ID: 9  # load embedding with id 9 from experiment folder 

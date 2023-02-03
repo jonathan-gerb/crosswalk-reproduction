@@ -1,0 +1,15 @@
+DATASET: "synthetic"                                        # P dataset: rice, twitter, synthetic
+TASK: "infmax"                                              # P options are: infmax, nodeclass, linkpred, all.
+RUNS: 5                                                     # P number of runs
+
+SYNTHETIC:                                                  # H synthetic graph parameters
+  NODES: [350, 150]                                         # P
+  EDGE_PROBABILITIES: [[0.025, 0.001], [0.001, 0.025]]      # P
+GRAPH_WEIGHTING:                                            # H crosswalk parameters
+  METHOD: 'crosswalk'                                       # P options are ['crosswalk', 'fairwalk', 'skip']
+  ALPHA: 0.7                                                # P
+  P: 4.0                                                    # P exponent p in the crosswalk formula m(u)^p
+EMBEDDINGS:                                                 # H embedding parameters
+  METHOD: 'deepwalk'                                        # P options are ['node2vec', 'deepwalk']
+INFLUENCE_MAXIMIZATION:                                     # H Influence maximization parameters 
+  P_INFECTION: 0.03                                         # P

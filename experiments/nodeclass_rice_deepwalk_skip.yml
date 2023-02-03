@@ -1,0 +1,8 @@
+DATASET: "rice"                                 # P dataset: rice, twitter, synthetic
+TASK: "nodeclass"                               # P options are: infmax, nodeclass, linkpred, all.
+RUNS: 5                                         # P number of runs
+
+GRAPH_WEIGHTING:                                # H crosswalk parameters
+  METHOD: 'skip'                                # P options are ['crosswalk', 'fairwalk', 'skip']
+EMBEDDINGS:                                     # H embedding parameters
+  METHOD: 'deepwalk'                            # P options are ['node2vec', 'deepwalk']

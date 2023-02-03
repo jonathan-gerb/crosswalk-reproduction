@@ -1,0 +1,12 @@
+DATASET: "rice"                                 # P dataset: rice, twitter, synthetic
+TASK: "nodeclass"                               # P options are: infmax, nodeclass, linkpred, all.
+RUNS: 20                                         # P number of runs
+EXTRA_LOG_NAME: "original_crosswalk"
+
+GRAPH_WEIGHTING:                                # H crosswalk parameters
+  USE_ORIGINAL_CROSSWALK_IMPLEMENTATION: True
+  METHOD: 'crosswalk'                           # P options are ['crosswalk', 'fairwalk', 'skip']
+  ALPHA: 0.5                                    # P
+  P: 1.0                                        # P exponent p in the crosswalk formula m(u)^p
+EMBEDDINGS:                                     # H embedding parameters
+  METHOD: 'deepwalk'                            # P options are ['node2vec', 'deepwalk']

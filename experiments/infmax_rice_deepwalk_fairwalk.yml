@@ -1,0 +1,10 @@
+DATASET: "rice"                                 # P dataset: rice, twitter, synthetic
+TASK: "infmax"                                  # P options are: infmax, nodeclass, linkpred, all.
+RUNS: 5                                         # P number of runs
+
+GRAPH_WEIGHTING:                                # H crosswalk parameters
+  METHOD: 'fairwalk'                            # P options are ['crosswalk', 'fairwalk', 'skip']
+EMBEDDINGS:                                     # H embedding parameters
+  METHOD: 'deepwalk'                            # P options are ['node2vec', 'deepwalk']
+INFLUENCE_MAXIMIZATION:                         # H Influence maximization parameters 
+  P_INFECTION: 0.01                             # P
