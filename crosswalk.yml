@@ -1,0 +1,22 @@
+# YAML environment file for the original crosswalk codebase. This file was not provided by original authers but instead
+# created making an educated guess about the python/package versions used.
+name: crosswalk
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib=3.6.2
+  - networkx=3.0
+  - numpy=1.22.3
+  - scikit-learn=0.24.2
+  - ipykernel==6.20.1
+  - python=3.8.15
+  - pandas=1.5.2
+  - pip=22.3.1
+  - yacs==0.1.8
+  - scipy=1.9.1
+  - pip:
+    - dgl==0.9.1
+    - scikit-learn-extra==0.2.0
+    - gensim==4.3.0
+    - tqdm

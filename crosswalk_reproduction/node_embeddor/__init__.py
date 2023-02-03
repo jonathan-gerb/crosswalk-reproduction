@@ -1,0 +1,1 @@
+from .random_walk import generate_embeddings
