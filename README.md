@@ -24,6 +24,11 @@ Please cite the original paper if you find this useful:
 }
 ```
 
+## Authors
+The following authors have contributed equally:
+- Kieron Kretschmar
+- 
+
 # Requirements
 ## Installation
 This code was tested using the environment we provide in `crosswalk.yml`. 
