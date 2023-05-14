@@ -28,6 +28,7 @@ Please cite the original paper if you find this useful:
 The following authors have contributed equally:
 - Kieron Kretschmar
 - Luc Sträter
+- Eric Zila
 
 # Requirements
 ## Installation
