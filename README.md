@@ -29,6 +29,7 @@ The following authors have contributed equally:
 - Kieron Kretschmar
 - Luc Sträter
 - Eric Zila
+- Jonathan Gerbscheid
 
 # Requirements
 ## Installation
